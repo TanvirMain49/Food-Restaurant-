@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Work Sans", sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+.btn-cont{
+    text-align: center;
+}
+
+.ending{
+    padding: 14px 17px 14px 16px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 10px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    border:none; 
+    cursor: pointer;
+}
+
+#hero{
+    height: 100vh;
+    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url("../assets/hero-bg.png");
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+#hero .hero-contant{
+    width:521px;
+}
+
+#hero .hero-contant .subtitle{
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.8;
+
+
+}
+
+#hero .hero-contant .head{
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 29px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 10px;
+}
+
+#hero .hero-contant .description{
+
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 12px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin-bottom: 16px;
+
+
+}
+
+/* page 2 */
+
+/* #card-box{
+    width: 700px;
+    margin:100px auto;
+     display: flex;
+    justify-content: center; 
+} */
+#card-box .titile{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#card-box .subtitle{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+
+}
+
+.card-container{
+    width: 70%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px; 
+    
+}
+
+.card{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.card .image-box{
+    width: 300px;
+}
+.card .image-box img{
+    width:100%;
+}
+.card .shop{
+    padding: 14px 32px 14px 32px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+
+}
+.but{
+    margin-top: 60px;
+    margin-left: 430px;
+    padding: 14px 17px 14px 16px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 10px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    border:none; 
+    cursor: pointer;
+
+}
+
+.card-section{
+    
+    display: flex;
+    justify-content:center;
+    margin-top: 64px;
+    
+}
+
+/* page 3 */
+#sundor{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.social-section{
+    display: flex;
+}
+.child-puto{
+    width: 50%;
+}
+.child-puto img{
+    width: 100%;
+    margin-top: 78px;
+}
+
+.child-fulo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:12px    
+    
+}
+
+.social-section-icon{
+    width: 42px;
+}
+
+#social-section-follow{
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+    position: static;
+    width: 800px;
+    text-align: center;
+
+}
